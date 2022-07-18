@@ -34,10 +34,10 @@
                         <input type="text" value="{{ old('email') }}" name="email" class="form-control" placeholder="Email">
                     </div>
                     <div class="form-group">
-                        <input type="text" value="{{ old('password') }}" name="password" class="form-control" placeholder="Пароль">
+                        <input type="password" value="{{ old('password') }}" name="password" class="form-control" placeholder="Пароль">
                     </div>
                     <div class="form-group">
-                        <input type="text" value="{{ old('password_confirmation') }}" name="password_confirmation" class="form-control" placeholder="Подтверждение пароля">
+                        <input type="password" value="{{ old('password_confirmation') }}" name="password_confirmation" class="form-control" placeholder="Подтверждение пароля">
                     </div>
                     <div class="form-group">
                         <input type="text" value="{{ old('surname') }}" name="surname" class="form-control" placeholder="Фамилия">
