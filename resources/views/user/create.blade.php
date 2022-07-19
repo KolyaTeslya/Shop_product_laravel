@@ -48,16 +48,17 @@
                     <div class="form-group">
                           <input type="text" value="{{ old('age') }}" name="age" class="form-control" placeholder="Возраст">
                     </div>
-                    <div class="for-group">
+                    <div class="form-group">
                            <input type="text" value="{{ old('address') }}" name="address" class="form-control" placeholder="Адрес">
                     </div>
-                    <div class="for-group">
+                    <div class="form-group">
                         <select name="gender" class="custom-select form-control" id="exampleSelectBorder">
                             <option disabled selected>Пол</option>
                         <option {{ old('gender') === 1 ? ' selected' : '' }} value="1">Мужской</option>
                         <option {{ old('gender') === 2 ? ' selected' : '' }} value="2">Женский</option>
                         </select>
-                        <div>
+
+                        <div class="form-group">
                         <input type="submit" class="btn btn-primary" value="Добавить">
                     </div>
                     </div>
